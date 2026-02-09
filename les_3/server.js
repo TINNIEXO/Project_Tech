@@ -6,7 +6,6 @@ const fs = require('fs')
 
 const users = JSON.parse(
   fs.readFileSync('./data/users.json', 'utf8')
-
 )
 
 app.use(express.static('public'))
